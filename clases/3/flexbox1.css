@@ -1,0 +1,50 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	border: 2px solid black;
+	position: relative;
+	margin: 0;
+	height: 100%;
+}
+
+div{
+	display: block;
+
+}
+
+
+.position-fixed{
+	height: 60px;
+	position: fixed;
+	top: 0;
+}
+.flexbox{
+	-webkit-align-items:center;
+	align-items:center;
+	position: absolute;
+	display: -webkit-flex;
+	display: flex;
+	height:100%;
+	top:0;
+	left: 0;
+
+}
+.content{
+	margin-left:200px;/*cuando no tenes position*/
+	position: absolute;
+	top: 0px;
+	border:  2px solid black;
+
+}
+.section2{
+	border: 2px solid black;
+
+
+}
+.section3{
+	border: 2px solid black;
+}
+.section-izq{
+	border: 2px solid black;	
+}

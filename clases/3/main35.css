@@ -1,0 +1,43 @@
+*{
+	box-sizing:border-box;
+}
+.contenido{
+	border: 2px solid black;
+	margin: 0;
+
+}
+
+div{
+	display: block;
+
+}
+
+
+.position-fixed{
+	height: 60px;
+	float:left;
+	top: 0;
+}
+.navi{
+	float: left;
+	border: 2px solid black;
+	top:0;
+	width: 200px;
+}
+.content{
+	margin-left:200px;/*cuando no tenes position*/
+	top: 0px;
+	border:  2px solid black;
+
+}
+.section2{
+	border: 2px solid black;
+
+
+}
+.section3{
+	border: 2px solid black;
+}
+.section-izq{
+	border: 2px solid black;	
+}

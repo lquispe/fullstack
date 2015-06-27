@@ -1,0 +1,89 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	margin: 60px 0 0 ;/*lo del medio izq dch*/
+}
+
+#content{
+	border: 2px solid black;
+	padding: 5px;/*espacio dentro de la caja del contenido */
+	width: 50px;
+
+}
+.position-relative-ex{
+	position: relative;
+	top: 10px;
+}
+
+.position-absolute-ex{
+	background-color: red;
+	height: 40px;
+	position: relative;
+	width: 40px;
+
+}
+
+.position-absolute-ex > div{/*a los hijos*/
+
+	background-color: green;
+	height: 40px;
+	position: absolute;
+	width: 40px;
+}
+.position-fixed{
+	height: 60px;
+	position: fixed;
+	top: 0;
+}
+.float-ex{
+
+	height: 80px;
+}
+.float-left{
+	background-color: red;
+	float: left;
+	height: 40px;
+	width: 40px;
+}
+.float-right{
+	background-color: green;
+	float: right;
+	height: 40px;
+	width: 40px;
+}
+.br{
+	clear: both;/*se puede ver el height*/
+}
+
+.clearfix{
+	overflow:auto; /*cuando se excede el contenido de una cada hidden*//*explorer viejo*/
+	zoom:1;
+
+}
+.display-inline-ex li{
+	display: inline-block;
+}
+.flexbox-ex{
+	display: -webkit-flex;/*es un valor de los que soporto el navegador motor es la renderizacion si */
+	display: flex;
+	-webkit-align-items:center;
+	align-item:center;
+	height: 100px;
+	border: 1px solid black;
+	-webkit-justify-content:center; /*centrado horizontal*/
+	justify-content:center;
+	/*los hijo centrados verticalmente*/
+	/*navegador un prefijo cuando se estandarise */
+}
+.flexbox-ex div{
+	background-color:red;
+	height: 40px;
+	width: 40px;
+	margin: 0 auto;
+}
+
+/*
+border-style: 
+border-width: 
+*/
