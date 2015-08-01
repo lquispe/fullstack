@@ -17,8 +17,8 @@ console.log(cadenafinal);
 function reverseArray(){
 
 var number;
-var my_array = new Array();
-var my_array_reverse= new Array();
+var my_array = []	;
+var my_array_reverse= [];
 
 my_array.push (1,2,3,4,5, 6, 7,8,9);
 
