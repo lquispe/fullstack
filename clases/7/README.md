@@ -2,10 +2,11 @@
 asi lo definimos
 var obj={a:1};
 
-
+```
 2015-07-18 10:24:24.433undefined
 typeof[]
 2015-07-18 10:25:24.626"object"
+```
 
 clase de valores en las keys
 
@@ -67,7 +68,8 @@ como obtengo la lista de atributos de los elementos
 Object.keys($('#lst-ib'))los atributos propios
 ["0",]
 este objeto tiene muchos mas que va a pedir prestado al padre se pregunta quien es el padre
-la lista del padre
+* la lista del padre
+
 $(#lst-ib).keydown(function(){console.log('apretaste')})
 
 $(document)
